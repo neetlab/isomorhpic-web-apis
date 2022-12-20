@@ -10,7 +10,8 @@
   "browser": "browser.cjs",
   "files": [
     "browser.cjs",
-    "main.cjs"
+    "main.cjs",
+    "main.d.ts"
   ],
   "dependencies": {
     "node-fetch": "^3.3.0"
