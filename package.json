@@ -1,5 +1,5 @@
 {
-  "name": "@mastojs/isomorhipc-web",
+  "name": "@mastojs/isomorhpic-web",
   "version": "1.0.0",
   "repository": "https://github.com/neetlab/isomorhpic-web-apis.git",
   "author": "Ryo Igarashi <n33t5hin@gmail.com>",
@@ -13,6 +13,9 @@
     "main.cjs",
     "main.d.ts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "node-fetch": "^3.3.0"
   }
