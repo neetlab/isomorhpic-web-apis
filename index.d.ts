@@ -1,10 +1,6 @@
-declare namespace IsomorphicWebApis {
-	declare const Blob: Blob;
-	declare const FormData: FormData;
-	declare const Headers: Headers;
-	declare const Request: Request;
-	declare const Response: Response;
-	declare const fetch: fetch;
-}
-
-export default IsomorphicWebApis;
+export declare const Blob: typeof globalThis.Blob;
+export declare const FormData: typeof globalThis.FormData;
+export declare const Headers: typeof globalThis.Headers;
+export declare const Request: typeof globalThis.Request;
+export declare const Response: typeof globalThis.Response;
+export declare const fetch: typeof globalThis.fetch;
