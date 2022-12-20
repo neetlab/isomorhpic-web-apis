@@ -1,6 +1,6 @@
 {
   "name": "@mastojs/isomorhpic-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/neetlab/isomorhpic-web-apis.git",
   "author": "Ryo Igarashi <n33t5hin@gmail.com>",
   "license": "MIT",
@@ -10,8 +10,8 @@
   "browser": "browser.cjs",
   "files": [
     "browser.cjs",
-    "main.cjs",
-    "main.d.ts"
+    "index.cjs",
+    "index.d.ts"
   ],
   "publishConfig": {
     "access": "public"
