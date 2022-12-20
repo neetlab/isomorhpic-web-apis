@@ -6,6 +6,7 @@
   "license": "MIT",
   "type": "module",
   "main": "index.cjs",
+  "types": "index.d.ts",
   "browser": "browser.cjs",
   "files": [
     "browser.cjs",
