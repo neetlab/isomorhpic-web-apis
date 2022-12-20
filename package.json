@@ -1,6 +1,6 @@
 {
   "name": "@mastojs/isomorphic-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/neetlab/isomorhpic-web-apis.git",
   "author": "Ryo Igarashi <n33t5hin@gmail.com>",
   "license": "MIT",
@@ -17,6 +17,6 @@
     "access": "public"
   },
   "dependencies": {
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^2.6.7"
   }
 }
