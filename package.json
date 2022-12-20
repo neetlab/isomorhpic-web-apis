@@ -1,13 +1,13 @@
 {
   "name": "@mastojs/isomorphic-web",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/neetlab/isomorhpic-web-apis.git",
   "author": "Ryo Igarashi <n33t5hin@gmail.com>",
   "license": "MIT",
   "type": "module",
-  "main": "index.cjs",
-  "types": "index.d.ts",
-  "browser": "browser.cjs",
+  "main": "./index.cjs",
+  "types": "./index.d.ts",
+  "browser": "./browser.cjs",
   "files": [
     "browser.cjs",
     "index.cjs",
@@ -17,6 +17,7 @@
     "access": "public"
   },
   "dependencies": {
+    "form-data": "^4.0.0",
     "node-fetch": "^2.6.7"
   }
 }
