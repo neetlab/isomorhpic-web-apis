@@ -1,0 +1,17 @@
+{
+  "name": "@masto/isomorhipc-web-apis",
+  "version": "1.0.0",
+  "repository": "https://github.com/neetlab/isomorhpic-web-apis.git",
+  "author": "Ryo Igarashi <n33t5hin@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.cjs",
+  "browser": "browser.cjs",
+  "files": [
+    "browser.cjs",
+    "main.cjs"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
