@@ -1,9 +1,20 @@
-/// <reference lib="DOM" />
-export declare const Blob: typeof globalThis.Blob;
-export declare const FormData: typeof globalThis.FormData;
-export declare const Headers: typeof globalThis.Headers;
-export declare const Request: typeof globalThis.Request;
-export declare const Response: typeof globalThis.Response;
-export declare const fetch: typeof globalThis.fetch;
-export declare const AbortController: typeof globalThis.AbortController;
-export declare const AbortSignal: typeof globalThis.AbortSignal;
+export { Blob } from "node:buffer";
+export { AbortController, AbortSignal } from "abort-controller";
+export { default as FormData } from "form-data";
+export {
+  Body,
+  BodyInit,
+  default as fetch,
+  HeaderInit,
+  Headers,
+  Request,
+  RequestCache,
+  RequestContext,
+  RequestCredentials,
+  RequestInit,
+  RequestMode,
+  RequestRedirect,
+  Response,
+  ResponseInit,
+  ResponseType,
+} from "node-fetch";
