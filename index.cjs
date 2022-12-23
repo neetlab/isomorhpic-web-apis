@@ -11,8 +11,9 @@ const Headers = globalThis.Headers ?? NodeFetch.Headers;
 const Request = globalThis.Request ?? NodeFetch.Request;
 const Response = globalThis.Response ?? NodeFetch.Response;
 const fetch = globalThis.fetch ?? NodeFetch.default;
-const AbortController = globalThis.fetch ?? NodeAbortController.AbortController;
-const AbortSignal = globalThis.fetch ?? NodeAbortController.AbortSignal;
+const AbortController =
+  globalThis.AbortController ?? NodeAbortController.AbortController;
+const AbortSignal = globalThis.AbortSignal ?? NodeAbortController.AbortSignal;
 
 exports.Blob = Blob;
 exports.FormData = FormData;
