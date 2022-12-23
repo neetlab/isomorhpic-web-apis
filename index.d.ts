@@ -5,7 +5,7 @@ export {
   Body,
   BodyInit,
   default as fetch,
-  HeaderInit,
+  HeadersInit,
   Headers,
   Request,
   RequestCache,
